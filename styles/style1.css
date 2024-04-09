@@ -1,0 +1,49 @@
+/* Set background to black */
+body {
+  background-color: black;
+  color: white; /* Set default text color to white */
+  font-family: "Helvetica Neue", sans-serif; /* Similar font to Spotify */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style the fixed upper left section */
+.sidebar {
+  position: fixed; /* Fix element to the left */
+  top: 0; /* Start at top of the page */
+  left: 0; /* Start at left of the page */
+  width: 200px; /* Set width of sidebar */
+  background-color: black;
+  padding: 1em; /* Add some padding inside sidebar */
+}
+
+/* Style the title inside the sidebar */
+.sidebar h2 {
+  color: limegreen; /* Set title color to lime green */
+  margin-bottom: 0.5em; /* Add some space below title */
+}
+
+/* Style the list items inside the sidebar */
+.sidebar ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.sidebar li {
+  margin-bottom: 0.25em; /* Add space between list items */
+}
+
+/* Style the main content section */
+.main-content {
+  margin-left: 100px; /* Make space for sidebar */
+  margin-right:100px;
+  padding: 1em; /* Add padding to content */
+}
+
+/* Style all headers (H1-H6) */
+h1, h2, h3, h4, h5, h6 {
+  color: limegreen; /* Set headers to lime green */
+}
+
+span{
+  color: limegreen
+}
