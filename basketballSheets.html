@@ -1,78 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
- <!-- <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light dark" />
-    <title>Spotify Dashboard</title>
-    <meta name="description" content="." />
--->
+<!DOCTYPE HTML>
+<html>
 
-<link
-      rel="stylesheet"
-      type="text/css"
-      href="/styles/style2.css"/>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Basketball Statistic Sheets</title>
+  <link rel="stylesheet" href="/style/style3.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="/style/accordian.pack.js"></script>
+</head>
 
- </head>
- <body>
- <!-- Header -->
-
-
-
-
-<main class="main-content">
-
-      <section class="main-content">
-
-     <h1>DYNAMIC SPORTS STATISTICS AND PREDICTIONS</h1>
+ 
+<body onload="new Accordian('basic-accordian',5,'header_highlight');">
+  <div id="logo"><h1>basketball statistics</h1></div>
+  <div id="basic-accordian" >
+    <div id="test-header" class="accordion_headings header_highlight">MAIN</div>
+    <div id="test-content">
+      <div class="accordion_child">
+        <h1>DYNAMIC SPORTS STATISTICS AND PREDICTIONS</h1>
         <p>A Dynamic Sports Prediction and Statistics Viewing Dashboard made in Google Sheets.</p>
-
         <h3>OVERVIEW</h3>
-        <p>
-        I developed a dynamic sports statistics dashboard using Google Sheets, designed to track and analyze various statistics during the season for a sports league. This dashboard offers real-time data updates, a custom power ranking system, and score predictions for selected teams. It combines data from various sources, Solver optimization, and Monte Carlo simulations to provide a comprehensive analysis of the league's performance.
-    </p>
-
-        <h3>KEY FEATURES</h3>
-         <ul>
-			<li><b> <span>Real-time Data Integration:</span></b> The dashboard is connected to external data sources, ensuring that it is always up-to-date with the latest statistics, scores, and performance metrics.</li>
-            <br>
-           <li><b><span>Custom Power Raking System:</span></b> I created a unique power ranking system within the dashboard. This system utilizes Solver, a powerful optimization tool, to calculate the relative strengths of teams based on historical performance, enabling users to see how teams compare in real-time.</li>
+        <p>I developed a dynamic sports statistics dashboard using Google Sheets, designed to track and analyze various statistics during the season for a sports league. This dashboard offers real-time data updates, a custom power ranking system, and score predictions for selected teams. It combines data from various sources, Solver optimization, and Monte Carlo simulations to provide a comprehensive analysis of the league's performance.</p>
+        <h3>TECHNOLOGIES USED</h3>
+        <p>This project made uses of the following tools:</p>
+        <ul>
+    <li>Google Sheets</li>
+    <li>Solver</li>
+    <li>Monte Carlo</li>
+    <li>Data Integration</li>
+    <li>Advanced Formulas</li>
+    <li>Bradley Terry</li>
+        </ul>
+      </div>
+    </div>
+    <div id="test1-header" class="accordion_headings">KEY FEATURES</div>
+    <div id="test1-content">
+      <div class="accordion_child">
+      <ul>
+        <li><b> <span>Real-time Data Integration:</span></b> The dashboard is connected to external data sources, ensuring that it is always up-to-date with the latest statistics, scores, and performance metrics.</li>
+        <br>
+        <li><b><span>Custom Power Raking System:</span></b> I created a unique power ranking system within the dashboard. This system utilizes Solver, a powerful optimization tool, to calculate the relative strengths of teams based on historical performance, enabling users to see how teams compare in real-time.</li>
+         <br>
+         <li><b><span>Monte Carlo Simulations:</span></b> To enhance the predictive capabilities of the dashboard, I incorporated Monte Carlo simulations. This statistical technique allows users to simulate various game scenarios and assess the likelihood of different outcomes, providing valuable insights into potential future performance.</li>
+         <br>
+          <li><b><span>User-Selectable Teams:</span>:</b> Users can interact with the dashboard by selecting specific teams of interest. The dashboard provides in-depth statistics, analysis, and predictions for the chosen teams, making it a versatile tool for fans, analysts, and team management.</li>
           <br>
-           <li><b><span>Monte Carlo Simulations:</span></b> To enhance the predictive capabilities of the dashboard, I incorporated Monte Carlo simulations. This statistical technique allows users to simulate various game scenarios and assess the likelihood of different outcomes, providing valuable insights into potential future performance.</li>
-            <br>
-           <li><b><span>User-Selectable Teams</span>:</b> Users can interact with the dashboard by selecting specific teams of interest. The dashboard provides in-depth statistics, analysis, and predictions for the chosen teams, making it a versatile tool for fans, analysts, and team management.</li>
-            <br>
-           <li><b><span>Score Predictions:</span></b> A backend prediction model is integrated into the dashboard, enabling users to input specific game scenarios and receive score predictions. This feature adds a layer of sophistication to the dashboard, making it an essential tool for anyone interested in predicting game outcomes..</li>
-         </ul>
-
-		<h3>BENEFITS AND IMPACT</h3>
-		<ul>
-		<li>The dynamic sports statistics dashboard simplifies the process of tracking and analyzing sports statistics, helping users make informed decisions, from predicting game outcomes to assessing team performance.</li>
-		<br>
-		<li>The custom power ranking system adds a unique dimension to the dashboard, allowing users to view teams' relative strengths in real-time.</li>
-		<br>
-		<li>The inclusion of Monte Carlo simulations enhances the accuracy of score predictions, offering valuable insights for fans, analysts, and sports enthusiasts.</li>
-		</ul>
-
-        <h3>CONCLUSION</h3>
-        <p>This project showcases my ability to create a dynamic and sophisticated sports statistics dashboard within Google Sheets, incorporating advanced analytical tools like Solver and Monte Carlo simulations. The user-friendly interface and real-time data integration make it a valuable resource for sports enthusiasts, analysts, and team management. The inclusion of a custom power ranking system and score prediction model further demonstrates my proficiency in leveraging data for informed decision-making.
-		</p>
-
-		<p><i> Please view the slideshow showing more of the actual project linked in the main project page. </i></p>
-      </section>
-	
-	<section class="sidebar">
-	<h5>TECHNOLOGIES USED</h5>
-<ul>
-
-	<li>Google Sheets</li>
-	<li>Solver</li>
-	<li>Monte Carlo</li>
-	<li>Data Integration</li>
-        <li>Advanced Formulas</li>
-	<li>Bradley Terry</li>
+          <li><b><span>Score Predictions:</span></b> A backend prediction model is integrated into the dashboard, enabling users to input specific game scenarios and receive score predictions. This feature adds a layer of sophistication to the dashboard, making it an essential tool for anyone interested in predicting game outcomes.</li>
+      </ul>
+      </div>
+    </div>
+ <div id="test2-header" class="accordion_headings">BENEFITS</div>
+    <div id="test2-content">
+      <div class="accordion_child">
+        <h1>BENEFITS</h1>
+        <span class="left"><img src="/style/bball.jpg" alt="example graphic" /></span>
+      <p>The dynamic sports statistics dashboard simplifies the process of tracking and analyzing sports statistics, helping users make informed decisions, from predicting game outcomes to assessing team performance.</p>
+      </div>
+    </div>
+    <div id="test3-header" class="accordion_headings">FINAL THOUGHTS</div>
+    <div id="test3-content">
+      <div class="accordion_child">
+       <h1>IMPACT</h1>
+       <ul>
+        <li>The custom power ranking system adds a unique dimension to the dashboard, allowing users to view teams' relative strengths in real-time.</li>
+        <li> The inclusion of Monte Carlo simulations enhances the accuracy of score predictions, offering valuable insights for fans, analysts, and sports enthusiasts.</li>
     </ul>
-</section>
-</main>
-  </body>
+      </div>
+    </div>
+<div id="test4-header" class="accordion_headings">CONCLUSION</div>
+    <div id="test4-content">
+      <div class="accordion_child">
+        <p>This project showcases my ability to create a dynamic and sophisticated sports statistics dashboard within Google Sheets, incorporating advanced analytical tools like Solver and Monte Carlo simulations. The user-friendly interface and real-time data integration make it a valuable resource for sports enthusiasts, analysts, and team management. The inclusion of a custom power ranking system and score prediction model further demonstrates my proficiency in leveraging data for informed decision-making.</p>
+
+        <p><i>Please view the slideshow showing more of the actual project linked in the main project page.</i></p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Copyright Corey L | <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Simple web templates by HTML5</a> | <a href="http://dezinerfolio.com">AJAX by DezinerFolio</a></p>
+  </div>
+</body>
 </html>
